@@ -1,0 +1,151 @@
+2011-09-04 Sunday 12:32  aaron1234nz
+
+	* my/index.php: 
+	
+	file index.php was initially added on branch MOODLE_20_STABLE.
+
+2011-09-04 Sunday 12:32  aaron1234nz
+
+	* lang/en/auth_facebook.php: 
+	
+	file auth_facebook.php was initially added on branch
+	MOODLE_20_STABLE.
+
+2011-09-04 Sunday 12:32  aaron1234nz
+
+	* renderers.php: 
+	
+	file renderers.php was initially added on branch MOODLE_20_STABLE.
+
+2011-09-04 Sunday 12:32  aaron1234nz
+
+	* settings.php: 
+	
+	file settings.php was initially added on branch MOODLE_20_STABLE.
+
+2011-09-04 Sunday 12:32  aaron1234nz
+
+	* version.php: 
+	
+	file version.php was initially added on branch MOODLE_20_STABLE.
+
+2011-09-04 Sunday 12:32  aaron1234nz
+
+	* post_to_wall.php: 
+	
+	file post_to_wall.php was initially added on branch
+	MOODLE_20_STABLE.
+
+2011-09-04 Sunday 12:32  aaron1234nz
+
+	* facebook_disconnect.html: 
+	
+	file facebook_disconnect.html was initially added on branch
+	MOODLE_20_STABLE.
+
+2011-09-04 Sunday 12:32  aaron1234nz
+
+	* facebook_flow.txt: 
+	
+	file facebook_flow.txt was initially added on branch
+	MOODLE_20_STABLE.
+
+2011-09-04 Sunday 12:32  aaron1234nz
+
+	* auth.php, deauthorize_callback.php, facebook.js,
+	facebook_disconnect.html, facebook_disconnect.php,
+	facebook_flow.txt, lib.php, link_account.html, link_account.php,
+	login.php, login_form.html, post_to_wall.php, renderers.php,
+	settings.php, version.php, xd_reciever.htm,
+	facebook-sdk/base_facebook.php, facebook-sdk/facebook.php,
+	facebook-sdk/fb_ca_chain_bundle.crt, lang/en/auth_facebook.php,
+	my/index.php: 
+	
+	Upgraded to Moodle 2.0 and added new features that are now possible
+	in Moodle 2
+
+2011-09-04 Sunday 12:32  aaron1234nz
+
+	* deauthorize_callback.php: 
+	
+	file deauthorize_callback.php was initially added on branch
+	MOODLE_20_STABLE.
+
+2011-09-04 Sunday 12:32  aaron1234nz
+
+	* facebook_disconnect.php: 
+	
+	file facebook_disconnect.php was initially added on branch
+	MOODLE_20_STABLE.
+
+2011-08-26 Friday 17:37  aaron1234nz
+
+	* auth.php, facebook.js, lib.php, link_account.html,
+	link_account.php, login.php, login_form.html: 
+	
+	Clean up code formatting, add licence statement and generally clean
+	up the code.
+
+2011-07-10 Sunday 15:23  aaron1234nz
+
+	* auth.php, lib.php, facebook-sdk/base_facebook.php,
+	facebook-sdk/facebook.php, facebook-sdk/fb_ca_chain_bundle.crt: 
+	
+	Upgraded PHP SDK to version 3 as version 2 has stopped working.
+
+2011-07-10 Sunday 15:23  aaron1234nz
+
+	* facebook-sdk/base_facebook.php: 
+	
+	file base_facebook.php was added on branch MOODLE_20_STABLE on
+	2011-09-04 04:32:03 +0000
+
+2011-07-10 Sunday 15:23  aaron1234nz
+
+	* facebook-sdk/facebook.php: 
+	
+	file facebook.php was added on branch MOODLE_20_STABLE on
+	2011-09-04 04:32:03 +0000
+
+2011-07-10 Sunday 15:23  aaron1234nz
+
+	* facebook-sdk/fb_ca_chain_bundle.crt: 
+	
+	file fb_ca_chain_bundle.crt was added on branch MOODLE_20_STABLE on
+	2011-09-04 04:32:03 +0000
+
+2011-05-19 Thursday 18:28  aaron1234nz
+
+	* xd_reciever.htm: 
+	
+	Facebook: Remove out-of-date files
+
+2011-05-19 Thursday 18:14  aaron1234nz
+
+	* lib.php, CHANGES, facebook-sdk/facebook.php: 
+	
+	Facebook: CONTRIB-2947 Upgrading to OAuth 2.0 (fix commit)
+
+2011-05-19 Thursday 16:04  aaron1234nz
+
+	* auth.php, facebook.js, lib.php, link_account.html,
+	login_form.html: 
+	
+	Facebook: CONTRIB-2947 Upgrading to OAuth 2.0
+
+2010-02-12 Friday 17:46  aaron1234nz
+
+	* lib.php: 
+	
+	CONTRIB-1817 Added extra function to match a moodle user with a
+	facebook user.	needed to allow user profile pics to be replaced
+	with facebook profile pics
+
+2010-01-11 Monday 23:03  arborrow
+
+	* auth.php, facebook.js, lib.php, link_account.html,
+	link_account.php, login.php, login_form.html, xd_reciever.htm: 
+	
+	CONTRIB-1713 - adding facebook package contributed and maintained
+	by Aaron Fulton
+

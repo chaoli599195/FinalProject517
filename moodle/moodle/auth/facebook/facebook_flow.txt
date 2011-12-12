@@ -1,0 +1,31 @@
+This document outlines the flow of the Facebook integration.
+
+User wants to signup with their Facebook account:
+1. Click the "Login with Facebook" button on login page
+2. User gets prompted to enable the application/sign in to Facebook
+3. User gets taken to link_account.php
+4. User clicks the "Create new account" button and gets taken to the standard Moodle signup page
+5. Because the Facebook application is already authorized the Facebook profile field will auto populate with the
+   users Facebook User ID and pre-populate infomation based on Facebook information.
+6. User clicks Save.
+
+User wants to connect their existing Moodle account with Facebook and they are not logged in:
+1. Click the "Login with Facebook" button on login page
+2. User gets prompted to enable the application/sign in to Facebook
+3. User gets taken to link_account.php
+4. User enters their Moodle username and password
+5. Facebook User ID is saved against this account
+6. User is logged in
+
+User wants to connect their existing Moodle account with Facebook and they are logged in:
+1. User goes to the their Moodle profile page and clicks the "Login with Facebook" button
+2. User gets prompted to enable the application/sign into Facebook
+3. Facebook profile field gets updated with the Facebook user ID (hidden element)
+4. User clicks "Save" to save the Facebook User ID to the database along with any other profile information.
+
+User want to disconnect their Facebook account from the Moodle account:
+1. User goes to the their Moodle profile page and clicks the "Disconnect" link
+2. User gets asked to confirm this action
+3. The remove application Facebook method is called
+4. The Facebook user ID is removed from the Moodle database
+

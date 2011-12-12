@@ -1,0 +1,7 @@
+<form action="<?php print $CFG->wwwroot.'/auth/facebook/facebook_disconnect.php' ?>" method="post">
+    <div class="form-input">
+      <p><?php print_string('disconnect_message', 'auth_facebook') ?></p>
+      <input type="submit" name="disconnect" value="<?php print_string('disconnect', 'auth_facebook') ?>" />
+      <input type="submit" name="cancel" value="<?php print_string("cancel") ?>" />
+    </div>
+</form>
